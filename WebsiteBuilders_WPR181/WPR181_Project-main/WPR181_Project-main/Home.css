@@ -1,0 +1,206 @@
+/* Home Page */
+body{
+width: 100%;
+
+}
+
+#one {
+  margin-top: 10px;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    background-image: url(HomePage/computer.png);
+    background-repeat: no-repeat;
+    background-color: rgb(221, 90, 14);
+    padding: 3%;
+
+    
+  }
+  .heading{
+    font-size: 40px;
+  }
+
+  #article1{
+    font-weight: bold;
+  }
+
+
+  #web{
+    font-size: 1cm;
+    text-align: right;
+    margin: 0;
+    text-align: center;
+    color:  #964800;
+  }
+  
+  #first
+  {
+    display: grid; 
+    grid-template-columns: repeat(2,1fr); 
+    gap: 5%; 
+    grid-template-areas: 
+      "picture para"; 
+    background-color: #e7b79b7c;
+    text-align: justify;
+    font-size: 170%;
+    padding: 3%;
+    border-radius: 10px;
+    width: 94%;
+  }
+  
+  #user { 
+    grid-area: picture;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+   }
+  
+  #info{ 
+    grid-area: para; 
+    width: 30%;
+  }
+
+  
+  #three{
+    background-color: #e7b79b67;
+    border-radius: 10px;
+    padding: 1%;
+    width: 98%;
+  }
+  
+  #three article{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5%;
+  }
+  
+  .service{
+    display: flex;
+    flex-direction: column;
+    font-size: 90%;
+   text-align: center;
+  }
+  
+  #offers{
+    background-color: #e7b79b67;
+    border-radius: 10px;
+    padding: 2%;
+  }
+  
+  #offer{
+    font-size: 1cm;
+    color: #964800;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+  }
+   
+  #Plan-info{
+  margin-top: 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.5cm;
+  }
+
+  #four
+  {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    grid-gap: 2%;
+    width: 100%;
+  }
+  
+  .Plan{
+ margin: 10px;
+  box-shadow: 2px 2px 3px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ff5e0028;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5%;
+  
+  }
+  
+
+  .Plan:hover {
+    transform: translateY(15px); 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .Plan a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.5cm;
+  }
+  
+  .Plan a:hover{
+    display: block;
+    background-color: rgba(255, 166, 0, 0.445);
+    text-decoration: none;
+  }
+  
+  .Package li:first-child {
+    font-weight: bold;
+    font-size: 0.5cm;
+    text-align: center;
+  }
+
+.Package li {
+    font-size: 90%;
+    text-align: center;
+    font-size: 0.4cm;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+  .Package{
+    list-style-type: none;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  
+  .line{
+    border: none;
+    border-top: 2px solid;
+    width: 90%;
+    margin: 10% auto;
+    color: #964800;
+  }
+  
+  .Price{
+    color: #964800;
+    font-size: 0.8cm;
+  }
+  
+  .PriceHeading{
+    background-color: #a88069;
+    border-radius: 8px;
+    font-size: 150%;
+  }
+  
+  #ServiceHeading{
+    margin-top: 0%;
+    margin-bottom: 20px;
+    font-size: 1cm;
+    color:  #964800;
+    text-align: center;
+  }
+  
+  #Expertly{
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  #Vision{
+  margin-bottom: 0;
+
+  }
+  
+h3{
+  font-weight: bold;
+  font-size: 0.6cm;
+}
+  
+  
+  
+  

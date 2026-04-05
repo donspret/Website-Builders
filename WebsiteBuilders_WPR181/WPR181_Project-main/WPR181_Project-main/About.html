@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="About.css">
+</head>
+<body>
+
+  <header>
+    <p class="Name"> <img src="/HomePage/Bicep.png" alt="Website Builder's Company logo" style="height: 3cm; width: 3cm;" >WEBSITE BUILDERS</p>
+
+   <nav aria-label="main navigation" class="mainnav">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About us</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Contact.html">Contact us</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+        </ul>
+
+   </nav>
+</header>
+
+<main>
+   
+      <h2 id="ourteam" style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="/Pictures_Of_Members/Amelia van der Walt.png" alt="Amelia" class="photo" style="height: 5cm; width: 4.5cm;">
+            <div class="container">
+              <h2>Amelia van der Walt</h2>
+              <p class="title">Web Designer</p>
+              <p>A web designer focuses on the visual aspects, including layout and user experience.</p>
+              <p>601649@student.belgiumcampus.ac.za</p>
+              <p><button class="button" onclick="sendEmail()">Contact</button></p>
+
+              <script>
+                  function sendEmail() {
+                      const userEmail = prompt('Please enter your email address:');
+                      if (userEmail) {
+                          window.location.href = `mailto:601649@student.belgiumcampus.ac.za?subject=Contact from ${userEmail}`;
+                      }
+                  }
+              </script>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/Pictures_Of_Members/Bevan Visser.jpg" alt="Bevan" class="photo" style="height: 5cm; width: 4cm;">
+            <div class="container">
+              <h2>Bevan Visser</h2>
+              <p class="title">Site Administrator</p>
+              <p>A site administrator oversees the overall administration of the website, including user management and content updates.</p>
+              <p>602158@student.belgiumcampus.ac.za</p>
+              <p><button class="button" onclick="sendEmail()">Contact</button></p>
+
+              <script>
+                  function sendEmail() {
+                      const userEmail = prompt('Please enter your email address:');
+                      if (userEmail) {
+                          window.location.href = `mailto:602158@student.belgiumcampus.ac.za?subject=Contact from ${userEmail}`;
+                      }
+                  }
+              </script>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="/Pictures_Of_Members/Dominic Smith.jpg" alt="Dominic" class="photo"  style="height: 5cm; width: 4cm;">
+            <div class="container">
+              <h2>Dominic Smith</h2>
+              <p class="title">Front-End Developer</p>
+              <p>A Front-End developer specializes in the client-side of the website, including HTML, CSS, and JavaScript.</p>
+              <p>602596@student.belgiumcampus.ac.za</p>
+              <p><button class="button" onclick="sendEmail()">Contact</button></p>
+
+              <script>
+                  function sendEmail() {
+                      const userEmail = prompt('Please enter your email address:');
+                      if (userEmail) {
+                          window.location.href = `mailto:602596@student.belgiumcampus.ac.za?subject=Contact from ${userEmail}`;
+                      }
+                  }
+              </script>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="/Pictures_Of_Members/Donya Pretorius.png" alt="Donya" class="photo" style="height: 5cm; width: 4cm;">
+            <div class="container">
+              <h2>Donya Pretorius</h2>
+              <p class="title">UX/UI Designer</p>
+              <p>A UX/UI designer focuses on user experience (UX) and user interface (UI) design to ensure the website is user-friendly and visually appealing.</p>
+              <p>602952@student.belgiumcampus.ac.za</p>
+              <p><button class="button" onclick="sendEmail()">Contact</button></p>
+
+              <script>
+                  function sendEmail() {
+                      const userEmail = prompt('Please enter your email address:');
+                      if (userEmail) {
+                          window.location.href = `mailto:602952@student.belgiumcampus.ac.za?subject=Contact from ${userEmail}`;
+                      }
+                  }
+              </script>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="/Pictures_Of_Members/Ofentse Mathosa.jpg" alt="Ofentse"  class="photo" style="height: 5cm; width: 5cm;">
+            <div class="container">
+              <h2>Ofentse Mathosa</h2>
+              <p class="title">Webmaster</p>
+              <p>A webmaster manages and maintains the website, ensuring it runs smoothly and stays up to date.</p>
+              <p>603142@student.belgiumcampus.ac.za</p>
+              <p><button class="button" onclick="sendEmail()">Contact</button></p>
+
+              <script>
+                  function sendEmail() {
+                      const userEmail = prompt('Please enter your email address:');
+                      if (userEmail) {
+                          window.location.href = `mailto:603142@student.belgiumcampus.ac.za?subject=Contact from ${userEmail}`;
+                      }
+                  }
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>  
+<br>
+<br>
+        <section id="services">
+          <h1> The Services We Offer</h1>
+        <div class="services">
+          <h1 id="service1"> Web design</h1>
+        <p class="para">
+          Refers to the process of creating a unique, 
+          tailor-made website that is specifically 
+          designed to meet the needs, goals, 
+          and branding of a particular business, 
+          organization, or individual. Unlike template-based 
+          web design, where pre-made layouts and designs are used,
+          custom web design involves creating a website from scratch,
+          often involving a detailed process of planning, design,
+          and development.
+        </p>
+        </div>
+
+        <div class="services">
+          <h1 id="service2">The aspects of Maintenance and Support</h1>
+        <p class="para">
+          To ensure a website remains effective and secure, focus on several critical areas.
+          Security monitoring is essential, including regular vulnerability scans, backups for data recovery, and SSL certificate management for secure data transmission.
+          Performance optimization enhances user experience by improving page load times and managing server resources efficiently.
+          Regular updates to the CMS, plugins, and content keep the site functional and engaging while addressing any bugs or vulnerabilities.
+          Technical support is crucial for resolving user issues and maintaining server uptime.
+          Lastly, SEO maintenance ensures the website stays visible in search results through ongoing updates to on-page and technical SEO practices.
+        </p>
+        </div>
+
+        <div class="services">
+          <h1 id="service3">How we use consultation and Stratagies effectively</h1>
+        <p class="para">
+          To create a successful website, focus on defining clear objectives to align the site with business goals and user needs.
+          Prioritize user experience by ensuring the design is user-friendly, accessible, and intuitive.
+          Address technical considerations by optimizing site performance, ensuring mobile responsiveness, and implementing strong security measures.
+          Utilize analytics and tracking tools to monitor performance and make data-driven improvements.
+          Enhance conversion rates through strategic placement of calls-to-action and A/B testing.
+          Additionally, develop a robust content strategy with regular updates and SEO practices to engage users and improve visibility.
+        </p>
+        </div>
+
+        <div class="services">
+          <h1 id="service4"> Mobile App Development</h1>
+        <p class="para">
+          Mobile app development is the process of creating software applications that run on mobile devices such as smartphones and tablets. 
+          This service involves designing, building, and maintaining apps tailored to meet specific user needs and business objectives. 
+          Our team focuses on delivering user-friendly and high-performing apps that provide seamless experiences across various platforms, 
+          ensuring your business can connect with customers anytime, anywhere. Whether it's iOS, Android, or cross-platform development, 
+          we combine innovative design with robust functionality to create apps that not only look great but also deliver results.
+        </p>
+        </div>
+
+
+      </section>
+
+<br><br><br><br>
+      <section id="FAQ">
+        <h1 id="FAQheader">Frequently Asked Questions</h1>
+        
+        <details class="Questions">
+
+            <summary class="QAA">How can I get in touch?</summary>
+            <p class="answers">Get in touch with our team by clicking <a href="Contact.html">HERE</a>. 
+                We prioritize effective communication and will respond to your inquiries promptly.</p>
+        </details>
+        
+        <details class="Questions">
+            <summary class="QAA">How long does it take to build my dream website?</summary>
+            <p class="answers">It depends on the package you choose; bigger websites require more time and attention to detail. 
+                Our average turnover time is two weeks.</p>
+        </details>
+        
+        <details class="Questions">
+            <summary class="QAA">What package is best for my company?</summary>
+            <p class="answers">If you're unsure which package is the best fit for your company, please <a href="Contact.html">contact us</a>. 
+                We'll take the time to understand your goals and provide the right solution. 
+                Before we begin designing your ideal website, we'll discuss your requirements in detail.</p>
+        </details>
+        
+        <details class="Questions">
+            <summary class="QAA">What sets your web development company apart from others?</summary>
+            <p class="answers">We combine personalized service with expert craftsmanship. 
+                We take the time to understand your unique needs and goals, ensuring that the websites we build are not only
+                 visually stunning but also highly functional and optimized for performance. 
+                 Our commitment to ongoing support, transparency, and cutting-edge technology means you get a website that truly
+                  sets your business apart from the competition. Feel free to explore our <a href="Portfolio.html">Portfolio</a> 
+                  to see the quality of our work firsthand.</p>
+        </details>
+    </section>
+
+
+
+
+
+</main>
+
+
+
+<footer class="footer">
+       
+  <p class="Name"> <img src="/HomePage/Bicep.png" alt="Website Builder's Company logo" style="height: 2cm; width: 2cm;" >WEBSITE BUILDERS</p>
+ 
+     
+  <section id="Icons">
+      <h1>Connect with us</h1>
+     <a href="http.Facebook"><img src="/HomePage/InstagramIcon.png" alt="Instagram Icon"></a> 
+      <a href="http.Instagram"><img src="/HomePage/FacebookIcon.png" alt="Facebook Icon"></a>
+     <a href="http.Pinterest"> <img src="/HomePage/PinterestIcon.png" alt="Pinterest Icon"></a>
+     <a href="http.LinkedIn"> <img src="/HomePage/LinkedInIcon.png" alt="LinkedIn Icon"></a>
+      <a href="http.Whatsapp"><img src="/HomePage/WhatsappIcon.png" alt="Whatsapp Icon">
+      </a>
+
+  </section>
+
+  <section id="news-letter">
+
+          <label for ="Message" id="sign-up">Sign up for our latest specials or pricelists</label>
+          <div id="form-row">
+            <textarea id="message" name="message" placeholder="JohnDoe@example.com"></textarea>
+            <button id="submit-button">Submit</button>
+           </div>   
+
+  </section>
+
+ </nav>
+      <nav aria-label="other-navigations" id="navigations">
+          <ul>
+              <li id="privacy-nav"><a href="#Privacy">Privacy Policy</a></li>
+              <li><a href="#terms">Terms and Conditions</a></li>
+              <li><a href="#cookies">Cookie Policy</a></li>
+              
+          </ul>
+      </nav>
+
+  </div>
+
+ 
+    <p id="Copyright">Copyright © 2024 Website Builder -All Copyrights Reserved to their respective owners</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+/* Portfolio Page */
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .portfolio-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1%;
+    padding: 2%;
+  }
+  .portfolio-item {
+    background-color: #f3c0ac5e;
+    padding-bottom: 10px;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 5px;
+    box-shadow: 2px 2px 3px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  
+  }
+  
+    
+  .portfolio-item:hover {
+      transform: translateY(15px); 
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .gallery{
+    width: 90%;
+    height: 7cm;
+  }
+  
+  .gallery-plan{
+    font-size: larger;
+    font-weight: 600;
+  }
+  
+  #Portfolio-para{
+  font-size: larger;
+  font-weight: bold;
+  color: black;
+  background-color: #be6b1d;
+  border-radius: 15px;
+  padding: 10px;
+
+  }
+  
+  #Portfolio-heading{
+  font-size: 3cm;
+  text-align: center;
+  color: #be6b1d;
+  margin-bottom: 0;
+  
+  }
+  
+  #flexbox-container2{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 10px;
+    font-size: small;
+  }
+  
+  .ReviewBox{
+    background-color:  #f3c0ac5e;
+    border-radius: 10px;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "heading heading . star"
+    "txt txt txt txt";
+    color: rgb(165, 81, 42);
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .stars{
+    grid-area: star;
+    height: 0.7cm;
+    width: 2%;
+    padding-top: 3%;
+    padding-left: 60%;
+    display: flex;
+  }
+
+  .ReviewHeading{
+    grid-area:heading;
+    font-size: 0.8cm;
+    margin-top: 3px;
+    margin-bottom: 5px;
+  }
+
+  .ReviewText{
+    grid-area: txt;
+    font-size: 0.5cm;
+    margin-top: 5px;
+  }
+
+  .photo{
+    width: 100px;
+
+
+  }

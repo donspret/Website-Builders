@@ -1,0 +1,118 @@
+/*pricing page*/
+p{
+  font-weight: bold;
+}
+
+#pricing-intro{
+    background-color: #e7b79b67;
+    margin-top: 10px;
+    padding: 5px;
+    padding-top: 1px;
+    border-radius: 10px;
+
+  }
+  
+  #flexbox-container #four{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  #Browse a{
+      font-size: 1cm;
+      color: #964800;
+      margin-bottom: 0;
+     
+  }
+  
+  #Browse a:hover{
+    color: blue;
+  }
+
+
+
+  #pricing-intro p{
+  font-size: 0.5cm;
+  }
+  
+  #PackageHeading{
+    text-align: center;
+  }
+
+  .Package li {
+     margin-bottom: 10px; 
+   }
+  h1 a{
+    color: white;
+  }
+  
+  ul li:first-child {
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  .Price{
+    color: #964800;
+    font-size: 0.8cm;
+  }
+  
+  .line{
+    border: none;
+    border-top: 2px solid;
+    width: 3cm;
+    margin: 20px auto;
+    color: #964800;
+  }
+  
+  .Package{
+    list-style-type: none;
+  }
+  
+  .Plan{
+    box-shadow: 2px 2px 3px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ff5e0028;
+    border-radius: 10px;
+    text-align: center;
+    }
+    
+    .Plan:hover {
+      transform: translateY(15px); 
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); 
+    }
+    
+    .Plan a{
+      color: black;
+      text-decoration: none;
+      
+    }
+    
+    .Plan a:hover{
+      display: block;
+      background-color: rgba(255, 166, 0, 0.445);
+      text-decoration: none;
+    }
+    
+    .Package li:first-child {
+      font-weight: bold;
+      font-size: 0.5cm;
+
+    }
+   
+    .Plan li{
+      font-size: 0.4cm;
+      font-weight: 600;
+    }
+
+    .PriceHeading{
+      border-radius: 8px;
+      font-size: 0.8cm;
+    }
+
+    #four{
+      padding: 5px;
+    }
+
+    #package{
+      padding-right: 5px;
+    }

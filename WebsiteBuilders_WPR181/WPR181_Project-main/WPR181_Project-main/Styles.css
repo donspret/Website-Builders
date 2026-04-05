@@ -1,0 +1,187 @@
+/*general*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+   max-width: 99%;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   color: black;
+   grid-area: main;
+   background-color: bisque;
+ }
+ header {
+   background-color: #964800;
+   color: #fff;
+   text-align: center;
+   padding-top: 50px;
+   border-radius: 10px;
+ }
+ 
+ nav {
+   display: flex;
+   justify-content: center;
+   background-color: #be6b1d;
+   border-radius: 10px;
+    grid-area: nav;
+    grid-area: navigations; 
+    margin-top: 5%;
+    font-weight: bold;
+ }
+ 
+ nav ul{
+   display: flex;
+ }
+ nav li{
+   list-style: none;
+ }
+ nav a {
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+   display: block;
+ }
+ 
+ nav a:hover {
+   background-color: #ff91007e;
+ }
+
+ .mainnav{
+  position: fixed;
+  top: -10%;
+  width: 99%;
+ }
+ 
+ header .mainnav ul li{
+  border-left: solid;
+   border-right: solid;
+   border-width: 1px;
+ }
+ footer{
+   background-color: #e7b79b;
+   text-align: center;
+   border-radius: 10px;
+   display: grid; 
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 5px 0px; 
+   grid-template-areas: 
+     "BicepLogo news-letter"
+     "Icons Icons"
+     "navigations navigations"; 
+     grid-area: footer;
+
+ }
+ 
+ #Icons{
+ grid-area: Icons;
+ 
+ }
+
+ #Copyright{
+   font-size: smaller;
+
+ }
+
+ #navigations { 
+  grid-area: navigations; 
+  margin-top: 60px;
+  font-weight: bold;
+}
+#Name { 
+  grid-area: Biceplogo; 
+  margin-top: 0;
+ 
+}
+
+#news-letter { 
+  grid-area: news-letter; 
+  
+  margin-top: 50px;
+}
+
+#sign-up{
+  display: block;
+  margin-bottom: 10px;
+}
+
+#form-row{
+display: flex;
+align-items: center;
+margin-left: 60px;
+}
+
+#submit-button{
+border-radius: 15px;
+background-color: rgb(186, 137, 113);
+color: #964800;
+padding: 10px;
+font-size: 0.5cm;
+font-weight: 600;
+}
+
+#message{
+  
+  border-radius: 15px;
+  width: 8cm;
+  height: 1cm;
+  font-size: 0.5cm;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#sign-up{
+  margin-right: 100px;
+  text-align: center;
+  font-size: 0.7cm;
+  font-weight: 600;
+  color: #964800 ;
+}
+
+h1{
+  font-size: 1cm;
+  color: #964800;
+  margin-bottom: 0;
+}
+.Name{
+font-size: 0.7cm;
+font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-section {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .about-section img {
+      max-width: 100%;
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+      flex-direction: column;
+  }
+
+  nav a {
+      padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+    grid-template-areas:
+    "nav nav nav nav"
+    "main main main main"
+    "footer footer footer" ;
+  }
+  
+}
+

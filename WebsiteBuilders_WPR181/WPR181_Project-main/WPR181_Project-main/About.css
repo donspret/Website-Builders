@@ -1,0 +1,103 @@
+
+  .row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3%;
+  }
+  #ourteam{
+  color: #964800;
+  font-size: 1.5cm;
+  }
+  .column{
+    background-color: #ff5e0031;
+    border: double;
+    border-width: 0.2%;
+    border-radius: 5%;
+    padding: 3%;
+  }
+  .card{
+    text-align: center;
+    margin: auto;
+  }
+  .card img{
+    width: 100px;
+    height: 150px;
+  }
+
+  .photo{
+     border-radius: 7px; 
+  }
+
+  p{
+    font-weight: bold;
+  }
+
+  .para{
+
+    font-weight: bolder;
+
+  }
+
+  .button{
+    background-color: rgb(224, 127, 82);
+    color: black;
+    font-weight: bold;
+    border-color: #3b230c;
+    padding: 5px;
+    border-radius: 6px;
+    
+  }
+   
+  .services{
+    background-color: #e7b79b67;
+    border-radius: 1%;
+    padding: 3%;
+  }
+  
+  #services{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 3%;
+  }
+  .FAQ {
+    max-width: 300%;
+    margin: 0 auto;
+  }
+  
+  #FAQheader{
+    font-size: 1cm;
+    color:  #964800;
+    padding-top: 5%;
+    }
+    
+  .QAA {
+    cursor: pointer;
+    background-color:#e49a6f;
+    padding: 2%;
+    border: 1px solid #964800;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 15cm;
+  }
+  
+  .QAA:hover {
+    background-color: #964800;;
+  }
+  
+  .answers {
+    margin-bottom: 10px;
+    
+  }
+  
+  .answers[open] summary {
+    background-color: #964800;
+  }
+  
+  .answers p {
+    padding: 10px;
+    border: 1px solid #964800;;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+  

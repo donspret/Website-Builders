@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="Contact.css">
+    <script src="contact.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <p class="Name"> <img src="/HomePage/Bicep.png" alt="Website Builder's Company logo" style="height: 3cm; width: 3cm;" >WEBSITE BUILDERS</p>
+
+       <nav aria-label="main navigation" class="mainnav">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html">Contact us</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+            </ul>
+    
+       </nav>
+    </header>
+
+
+    <div id="contact-details">
+        <h1 class="heading">Contact Us</h1>
+        <p ><b>Phone:</b> <a href="#number"  class="contacts"  >(082) 098 0978</a></p>
+        <p ><b>Support email:</b> <a href="#email"  class="contacts" >Support@WebBuilder.co.za</a></p>
+        <p ><b>Sales email:</b> <a href="#email"  class="contacts"  >Sales@WebBuilder.ca.za</a></p>
+        <p ><b>Head Office:</b> <a href="#address" class="contacts" >The Oval West, Wanderers Office Park, Illovo, Johannesburg, South Africa</a></p>
+    </div>
+
+    <form class="myForm">
+        <fieldset id="myForm">
+            <legend>
+                <h2 id="Message">Leave us a message</h2>
+            </legend>
+            <label for ="name">First Name</label>
+        <input type = "text" id="name" name="firstname" >
+        <label for ="surname">Surname </label>
+        <input type = "text" id="surname" name="surname" >
+        <label for ="email">Email </label>
+        <input type = "text" id="email" name="email" >
+        <label for ="department">Department</label>
+        <select id="department" name="department">
+            <option value="Support">Support</option>
+            <option value="Sales">Sales</option>
+        </select>
+        <label for ="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write a message here..."></textarea>
+        <input type="submit" value="submit">
+        </fieldset>
+
+    </form> 
+
+    <div id="submittedMessage" class="hidden">
+        <p>Form Submitted!</p>
+    </div>
+    <br>
+           
+    <div class="Map">
+        <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.956868268433!2d28.054849375412747!3d-26.13294927712053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950d8ab250f1ed%3A0x8c2bd36dd6e418c3!2sWanderers%20Office%20Park!5e0!3m2!1sen!2sza!4v1724573502074!5m2!1sen!2sza" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer class="footer">
+       <p class="Name"> <img src="/HomePage/Bicep.png" alt="Website Builder's Company logo" style="height: 2cm; width: 2cm;" >WEBSITE BUILDERS</p>
+        <section id="Icons">
+            <h1>Connect with us</h1>
+            <a href="http.Facebook"><img src="/HomePage/InstagramIcon.png" alt="Instagram Icon"></a> 
+            <a href="http.Instagram"><img src="/HomePage/FacebookIcon.png" alt="Facebook Icon"></a>
+            <a href="http.Pinterest"> <img src="/HomePage/PinterestIcon.png" alt="Pinterest Icon"></a>
+            <a href="http.LinkedIn"> <img src="/HomePage/LinkedInIcon.png" alt="LinkedIn Icon"></a>
+            <a href="http.Whatsapp"><img src="/HomePage/WhatsappIcon.png" alt="Whatsapp Icon"></a>
+        </section>
+        
+        <section id="news-letter">
+            <label for ="Message" id="sign-up">Sign up for our latest specials or pricelists</label>
+            <div id="form-row">
+                <textarea id="message" name="message" placeholder="JohnDoe@example.com"></textarea>
+                <button id="submit-button">Submit</button>
+            </div>   
+        </section>
+        
+        <nav aria-label="other-navigations" id="navigations">
+            <ul>
+                <li id="privacy-nav"><a href="#Privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms and Conditions</a></li>
+                <li><a href="#cookies">Cookie Policy</a></li>
+            </ul>
+        </nav>
+
+        <p id="Copyright">Copyright © 2024 Website Builder -All Copyrights Reserved to their respective owners</p>
+    </footer>
+</body>
+</html>
