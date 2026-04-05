@@ -15,7 +15,7 @@ If i were to redo this project, I would:
 -Add additional JavaScript
 -Improve the UI design
 
-##MY contribution
+## My contribution
 I contributed to the development of the project, including working on parts of the code and assisting with the overall functionality and design.
 
 ## Team members
